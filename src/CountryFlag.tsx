@@ -20,7 +20,7 @@ const CountryFlag: FC<CountryFlagProps> = (props) => (
                 style={{
                     aspectRatio: 1,
                     height: undefined,
-                    width: 28,
+                    width: 26,
                     borderWidth: 1,
                     borderColor: '#eeeeee'
                 }}
