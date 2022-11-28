@@ -10,10 +10,14 @@ const CountryFlag = (props) => (react_1.default.createElement(react_native_1.Vie
         height: 40,
         justifyContent: 'center',
         marginRight: 12,
-        width: 28
+        width: 28,
+        borderWidth: 1,
+        borderColor: '#eeeeee'
     } }, props.dialCode && props.dialCode.icon && (react_1.default.createElement(react_native_1.Image, { style: {
         aspectRatio: 1,
         height: undefined,
-        width: 28
+        width: 26,
+        borderWidth: 1,
+        borderColor: '#eeeeee'
     }, source: props.dialCode.icon }))));
 exports.default = CountryFlag;
