@@ -13,7 +13,9 @@ const CountryFlag: FC<CountryFlagProps> = (props) => (
         height: 40,
         justifyContent: 'center',
         marginRight: 12,
-        width: 28
+        width: 28,
+        borderWidth: 1,
+        borderColor: '#eeeeee'
     }}>
         {props.dialCode && props.dialCode.icon && (
             <Image
