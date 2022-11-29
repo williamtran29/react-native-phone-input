@@ -133,7 +133,7 @@ const PhoneInput: FC<PhoneInputProps> = ({
           onChangeText={handleChangeText}
           autoFocus={autoFocus}
           value={phoneNumber}
-          maxLength={14}
+          maxLength={20}
           style={{
             borderWidth: 0,
             flexGrow: 1,
