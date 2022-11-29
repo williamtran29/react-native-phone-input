@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import { FC } from "react";
 export interface PhoneInputProps {
     ref?: any;
     children?: any;
@@ -18,8 +18,6 @@ export interface PhoneInputChangeEvent {
     input: string;
     dialCode: string | null;
     countryCode: string | null;
-    isValid: boolean;
-    e164: string | null;
 }
 declare const PhoneInput: FC<PhoneInputProps>;
 export default PhoneInput;
